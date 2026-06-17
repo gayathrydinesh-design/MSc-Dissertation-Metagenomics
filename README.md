@@ -14,6 +14,10 @@ The pipeline covers the full workflow from raw sequencing data download to taxon
 
 ---
 
+This repository contains all scripts used for downloading, preprocessing, assembly, AMR annotation, MAG reconstruction, taxonomic classification, coverage estimation, and downstream visualization of shotgun metagenomic datasets.
+
+
+
 ## Pipeline Overview
 
 ```
@@ -322,8 +326,8 @@ coverm genome \
 ## Author
 
 **Gayathry Dinesh**
-M.Sc. Genomic Science, Central University of Kerala, India (2026)
-CSIR-UGC NET Qualified (2025)
+M.Sc. Genomic Science, Central University of Kerala, India
+CSIR-UGC NET Qualified for PhD Eligibility in Life Sciences (2025)
 gayathrydinesh@gmail.com | [LinkedIn](https://linkedin.com/in/gayathrydinesh)
 
 ---
@@ -331,5 +335,7 @@ gayathrydinesh@gmail.com | [LinkedIn](https://linkedin.com/in/gayathrydinesh)
 ## Citation
 
 If you use this pipeline, please cite:
-> Gayathry Dinesh et al. Exploring Antimicrobial Resistance Gene Reservoirs in the Gut Microbiome of Type 1 Diabetes Patients through Metagenomics. M.Sc. Dissertation, Central University of Kerala, 2026.
+> Gayathry Dinesh.
+Exploring Antimicrobial Resistance Gene Reservoirs in the Gut Microbiome of Type 1 Diabetes Patients through Metagenomics.
+M.Sc. Dissertation, Central University of Kerala, 2026.
 
