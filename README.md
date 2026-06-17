@@ -63,12 +63,11 @@ Coverage Estimation (CoverM)
 
 ## Python Analysis Scripts
 
-The `12_analysis/` folder contains Python scripts for visualizing and interpreting RGI output across all samples.
+The `12_analysis/` folder contains a Python script for visualizing and interpreting RGI output across all samples.
 
 | Script | Description |
 |--------|-------------|
-| `rgi_analysis_plots.py` | Plots 1–7: AMR hit counts per sample, drug class distribution, resistance mechanism stacked bars, pie chart, and heatmaps |
-| `rgi_diversity_genus_plots.py` | Plots 8–10: Top genera by AMR gene count, genus × resistance mechanism heatmap, Shannon diversity index per sample |
+| `rgi_analysis_plots.py` | Plots 1–11: AMR hit counts, drug class distribution, resistance mechanisms, heatmaps, genus-level analysis, and Shannon diversity index |
 
 **Dependencies:**
 ```bash
@@ -79,7 +78,6 @@ pip install pandas numpy matplotlib seaborn scipy
 ```bash
 cd 12_analysis
 python rgi_analysis_plots.py
-python rgi_diversity_genus_plots.py
 ```
 
 Place your `*_combined_rgi_bins.tsv` files in the same directory before running.
@@ -100,7 +98,8 @@ Place your `*_combined_rgi_bins.tsv` files in the same directory before running.
 ├── 09_taxonomy/           # GTDB-Tk classification
 ├── 10_community_profiling/ # MetaPhlAn profiling
 ├── 11_coverage/           # CoverM coverage estimation
-├── 12_analysis/           # Python scripts for RGI output visualization and analysis
+├── 12_analysis/
+│   └── rgi_analysis_plots.py  # All visualization scripts (Plots 1-10)
 └── README.md
 
 ```
